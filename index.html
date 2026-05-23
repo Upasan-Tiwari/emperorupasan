@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emperor Upasan — Editor. Developer. Builder.</title>
+  <meta name="description" content="Personal portfolio of Upasan Tiwari (Emperor Upasan). High-end cinematic video editing, custom storytelling, and lightweight creative web development based in Nepal.">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Emperor Upasan — Editor. Developer. Builder.">
+  <meta property="og:description" content="High-end cinematic video editing, custom storytelling, and lightweight creative web development based in Nepal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://upasantiwari.com.np">
+  
+  <!-- Inline Crown SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23C0392B'%3E%3Cpath d='M2 4l3 5 7-6 7 6 3-5v16H2V4z'/%3E%3C/svg%3E">
+  
+  <!-- Google Fonts Connection -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor-dot" id="cursor-dot"></div>
+  <div class="custom-cursor-ring" id="cursor-ring"></div>
+
+  <!-- Loading Intro Screen Overlay -->
+  <div class="loading-screen" id="loading-screen">
+    <h1 class="loader-logo">Emperor Upasan</h1>
+  </div>
+
+  <!-- Main Website Wrapper -->
+  <div class="page-transition-wrapper fade-in" id="page-wrapper">
+    
+    <!-- Fixed Navigation Header -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo-link">
+          <span class="logo">EU</span>
+        </a>
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="work.html" class="nav-link">Work</a>
+          <a href="about.html" class="nav-link">About</a>
+        </nav>
+        <button class="burger-menu-btn" aria-label="Toggle Menu" id="burger-btn">
+          <span class="burger-bar"></span>
+          <span class="burger-bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Fullscreen Slide-in Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+      <nav class="mobile-nav-links">
+        <a href="index.html" class="mobile-link active">Home</a>
+        <a href="work.html" class="mobile-link">Work</a>
+        <a href="about.html" class="mobile-link">About</a>
+      </nav>
+    </div>
+
+    <!-- Main Content Area -->
+    <main>
+      
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1 class="hero-title reveal">Emperor Upasan</h1>
+          <p class="hero-tagline reveal delay-1">Editor. Developer. Builder.</p>
+          <div class="hero-cta-container reveal delay-2">
+            <a href="work.html" class="btn btn-primary transition-link">See My Work</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Intro Statement Section -->
+      <section class="intro-section container">
+        <div class="intro-grid">
+          <div class="intro-heading-col">
+            <h2 class="section-label reveal">Introduction</h2>
+          </div>
+          <div class="intro-text-col">
+            <p class="body-lead reveal">
+              I am Upasan Tiwari, a visual architect and technical builder operating out of Nepal. By merging strict layout engineering with a sharp eye for cinematic pacing, color systems, and structural timing, I construct high-impact digital products and creative assets.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Split Section -->
+      <section class="skills-section container">
+        <h2 class="section-label reveal">Expertise</h2>
+        <div class="skills-grid">
+          
+          <!-- Cinematic Video Column -->
+          <div class="skills-column card-surface reveal">
+            <h3 class="skills-title">Video Editing</h3>
+            <p class="skills-description">Crafting visual sequences where storytelling, visual tone, and audio landscapes integrate perfectly to hold human interest.</p>
+            <ul class="skills-list">
+              <li>DaVinci Resolve</li>
+              <li>Cinematic Color Grading</li>
+              <li>Precise Sound Design</li>
+              <li>Motion Graphics</li>
+              <li>Pacing & Narrative Geometry</li>
+            </ul>
+          </div>
+
+          <!-- Technical Development Column -->
+          <div class="skills-column card-surface reveal delay-1">
+            <h3 class="skills-title">Web Development</h3>
+            <p class="skills-description">Writing clean, responsive, and high-performance interfaces that focus heavily on modern typography, whitespace, and UX flow.</p>
+            <ul class="skills-list">
+              <li>Semantic HTML5</li>
+              <li>Modern CSS3 (Flexbox/Grid)</li>
+              <li>Vanilla ES6+ JavaScript</li>
+              <li>Responsive Micro-Architectures</li>
+              <li>Performance Optimization</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p class="footer-text">© 2025 Emperor Upasan — Built with intention.</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- JavaScript Link -->
+  <script src="main.js"></script>
+</body>
+</html>
